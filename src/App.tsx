@@ -1,11 +1,12 @@
-import EventHandling from "./components/EventHandling";
+import CounterContex from "./components/CounterContex";
+import MyProvider from "./components/MyContex";
 
 const App = () => {
   return (
     <div>
-      {/*<FocusInput />*/}
-      {/*<ContactForm />*/}
-      <EventHandling />
+      <MyProvider>
+        <CounterContex />
+      </MyProvider>
     </div>
   );
 };
