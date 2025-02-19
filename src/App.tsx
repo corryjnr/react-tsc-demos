@@ -1,12 +1,11 @@
-import Counter from "./components/Counter";
-import TodoList from "./components/TodoList";
-import UserProfile from "./components/UserProfile";
+import EventHandling from "./components/EventHandling";
 
 const App = () => {
   return (
     <div>
-      <UserProfile />
-      <TodoList />
+      {/*<FocusInput />*/}
+      {/*<ContactForm />*/}
+      <EventHandling />
     </div>
   );
 };
