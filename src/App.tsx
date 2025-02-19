@@ -1,12 +1,9 @@
-import CounterContex from "./components/CounterContex";
-import MyProvider from "./components/MyContex";
+import Counter from "./components/Counter";
 
 const App = () => {
   return (
     <div>
-      <MyProvider>
-        <CounterContex />
-      </MyProvider>
+      <Counter />
     </div>
   );
 };
